@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <title>LUNDAPP</title>
+  </head>
+  <body>
+    <nav class="navbar  h1 sm navcol">
+      <a href="index.ejs" class="link">LUNDAPP</a>
+    </nav>
+    <section class="container-fluid section">
+      <div class="row">
+        <div class="col-8 build ">
+          <h1 class="text-center show">Interactive UI</h1>
+          <div id="show" class="container">
+            <img class='header show' src="images/wash.png" alt="">
+          </div>
+        </div>
+    
+
+        <div class="col-sm-4 how">
+          <h1>How to use</h1>
+          <h3>Instructions</h3>
+          <ol>
+          <li>Fill the name, address and phone number labels.</li>
+          <li>Select what you want to wash.</li>
+          <li>Others includes cloths like underwears, handkerchief etc.</li>
+          <li>Use the labels named shirts, trousers, others and jacket to choose quantity and type.</li>
+          <li>Click vieworder to view your order and cost of service.</li>
+          
+          <li>
+            click checkout when you are through picking the cloths you want to
+            wash.
+          </li>
+          <li>Made an error? click LUNDAPP to start afresh.</li>
+        </ol>
+        </div>
+      </div>
+    </section>
+    <div class="navbar container-fluid select h3">SELECT ITEMS</div>
+    <div class="container-fluid">
+      <div class="row">
+                <div class="col-sm-6 form ">
+                    <form action="" class="">
+                        <div class="input">
+                            Name <br>
+                            <input
+                            id="name"
+                              type="text"
+                              name="text"
+                              value=""
+                              placeholder=''
+                              required
+                            />
+                        </div>
+                            <div class="input">
+                            Phone Number <br>
+                        <input
+                        id="telephone"
+                          type="number"
+                          name="phone"
+                          value=""
+                          placeholder=''
+                          required
+                        />
+                            </div>
+                            <div class="input">
+                              Address <br>
+                          <input
+                          id="address"
+                            type="text"
+                            name="text"
+                            value= ""
+                            placeholder=''
+                            required
+                          />
+                              </div>
+                              <div class="flex">
+                      <div class="input box1">
+                  Trousers
+                  <br>
+                        <input
+                        id="trousers"
+                          type="number"
+                          name="quantity"
+                          min=""
+                          max="100"
+                          value="0"
+                        />
+                      </div>
+                      <div class="input box2">
+                          Shirts or Gowns <br>
+                          <input
+                          id="shirts"
+                            type="number"
+                            name="quantity"
+                            min="0"
+                            max="100"
+                            value="0"
+                          />
+                        </div>
+                      </div>
+                      <div class="flex">
+                      <div class="input box1">
+                      Jacket <br>
+                        <input
+                        id="jacket"
+                          type="number"
+                          name="quantity"
+                          min="0"
+                          max="100"
+                          value="0"
+                        />
+                      </div>
+                      <div class="input box2">
+                      Others <br>
+                        <input
+                        id="others"
+                          type="number"
+                          name="quantity"
+                          min="0"
+                          max="100"
+                          value="0"
+                        
+                        />
+                      </div>
+                     
+                      </div>
+                      <div>
+                        <!-- <input id="button" type="submit" value="VIEW ORDERS"> -->
+                      </div>
+                      <button id="button">VIEW ORDER</button>
+                    </form>
+                  </div>
+            
+              <div class="col-sm-6 ">
+                  <div  id ="totalPrice"></div>
+                </div>
+     
+        </div>
+    </div>
+    <button class="open-button" id="checkout">CHECK OUT</button>
+
+<!-- pop up thank you form -->
+<div class="form-popup container" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Thank You</h1>
+
+    <h4>Your Order has been received, we would get in touch with you as soon as Possible </h4>
+<!-- 
+    <button type="submit" class="btn">Login</button> -->
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+
+
+
+    <footer>
+        <ul class="">
+            <li class="">lagos, Nigeria</li>
+            <li class="">copyright &copy lundapp</li>
+        </ul>
+
+     
+
+    </footer>
+
+    <script src="main2.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,276 @@
+.section{
+    height: 400px;
+}
+
+.input{
+    margin-top: 10px;
+    padding: 5px;
+    width: 60%;
+    box-sizing: border-box; 
+    margin-left: 5px;
+   
+    
+}
+.header {
+    height: 300px;
+   margin-left: 260px;
+}
+
+.flex{
+    display: flex;
+    justify-content: start;
+}
+#name{
+    width: 300px;
+    padding: 5px 0;
+    border-radius: 25px ;
+}
+#telephone{
+    width: 300px;
+    padding: 5px 0;
+    border-radius: 25px ;
+}
+#address{
+    width: 300px;
+    padding: 5px 0;
+    border-radius: 25px ;
+}
+#trousers{
+    width: 140px;
+    padding: 5px 0;
+    border-radius: 25px ;
+    text-indent: 10px;
+}
+#shirts{
+    width: 140px;
+    padding: 5px 0;
+    border-radius: 25px ;
+    text-indent: 10px;
+}
+#jacket{
+    width: 140px;
+    padding: 5px 0;
+    border-radius: 25px ;
+    text-indent: 10px;
+}
+#others{
+    width: 140px;
+    padding: 5px 0;
+    border-radius: 25px ;
+    text-indent: 10px;
+}
+.select{
+    color: blue;
+    font-weight: bolder;
+}
+.form{
+    background-color: #f1f1f1;
+  
+}
+ul{
+    list-style: none;
+    padding-top: 20px;
+    
+}
+.output{
+    margin-top: 20%;
+}
+.output h3{
+    font-size: large;
+    margin-left: 30px;
+    margin-top: 10px;
+   
+}
+.total{
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;  
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+#button{
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;  
+    margin-left: 35%;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.open-button{
+    background-color: red;
+    color: whitesmoke;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;  
+    width: 60%;
+    margin-top: 20px;
+   margin-left: 20%;
+  
+  
+}
+
+.navcol{
+    background-color: blue;
+}
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.link:hover{
+    text-decoration: none;
+    color: thistle;
+}
+.how{
+    height: 400px;
+   border-left: 5px solid ;
+    
+
+}
+
+.quantity{
+    margin: 20px;
+    padding: 10px;
+}
+
+.displayimage{
+    width: 200px;
+}
+.displayimagei{
+    width: 200px;
+}
+.displayimagei:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+.displayimage:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+
+
+
+  css for pop up /* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    /* position: fixed; */
+    /* bottom: 23px;
+    right: 28px; */
+    width: 280px;
+  }
+  .form-popup h1{
+      margin-left: 20px;
+      color: whitesmoke;
+  }
+  .form-popup h4{
+    margin-left: 20px;
+    color: whitesmoke;
+  }
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    overflow: none;
+    width: 600px;
+    height: 300px;
+    bottom: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(78, 72, 72, 0.8);
+  }
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: whitesmoke;
+    color: black;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    margin-top:10px;
+    margin-left:10px;
+    opacity: 0.8;
+  }
+  /* Add a red background color to the cancel button */
+  .cancel {
+    background-color: green;
+        color: white;
+        padding: 10px 10px;
+        border: none;
+        cursor: pointer;
+        width: 125px;
+        margin-bottom:10px;
+        opacity: 0.8;
+        /* position: inherit; */
+        margin-right: 200px;
+      }
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+    
+  @media only screen and (max-width: 700px) {
+    /* For desktop: */
+    .show{
+        display: none;
+    }
+    #name{
+        width: 200px;
+        padding: 5px 0;
+        border-radius: 25px ;
+    }
+    #telephone{
+        width: 200px;
+        padding: 5px 0;
+        border-radius: 25px ;
+    }
+    #address{
+        width: 200px;
+        padding: 5px 0;
+        border-radius: 25px ;
+    }
+    #trousers{
+        width: 150px;
+        padding: 5px 0;
+        border-radius: 25px ;
+        text-indent: 10px;
+    }
+    #shirts{
+        width: 150px;
+        padding: 5px 0;
+        border-radius: 25px ;
+        text-indent: 10px;
+    }
+    #jacket{
+        width: 150px;
+        padding: 5px 0;
+        border-radius: 25px ;
+        text-indent: 10px;
+    }
+    #others{
+        width: 150px;
+        padding: 5px 0;
+        border-radius: 25px ;
+        text-indent: 10px;
+    }
+    .how{
+        height: auto;
+        border: none;
+    }
+    .flex{
+        display: block;
+       
+    }
+    .select{
+       margin-top: 20px;
+    }
+    
+  }
