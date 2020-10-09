@@ -1,7 +1,7 @@
 
 
 # Use the official image as a parent image.
-FROM node:12.19.0
+FROM node-windows:latest
 
 # Set the working directory.
 WORKDIR /usr/src/app
